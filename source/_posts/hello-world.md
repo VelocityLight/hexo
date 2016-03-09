@@ -6,7 +6,7 @@ tags:
 categories:
 - 读书杂记
 ---
-欢迎来到鋆郴的第一个Github博客：Welcome to Jcs Github blog, reading world is coming.<!--more-->
+欢迎来到鋆郴的Github博客：Welcome to Jcs Github blog, reading world is coming.<!--more-->
 
 ## Quick Start
 
