@@ -1,0 +1,58 @@
+---
+title: Bezier Curve
+date: 2016-03-11 23:28:40
+tags:
+- Bezier Curve
+categories:
+- IT
+---
+Bezier Curve Problem.<!--more-->
+Bezier Curve
+===================
+[TOC]
+
+Question
+-------------
+> - 折线平滑为贝塞尔曲线
+> - 曲率连续
+
+Before
+-------------
+平面上已知n+1个数据点Pi(xi, yi), i = 0, 1, 2, ... , n 。在相邻两点Pi和Pi+1之间使用三次Bezier曲线连接。
+
+> **解析:**
+> - 四个控制点确定三次贝塞尔曲线，除起点终点外还有两个控制点，如何确定?
+> - 第一条和最后一条线段的贝塞尔曲线
+> - 使曲率连续
+
+Solve
+-------------
+曲率连续及控制点求解：
+![\[参考文献\]](http://www.zheng-hang.com/zb_users/upload/2015/04/201504121428776867406226.png)
+<br>
+第一条和最后一条线段：
+![enter image description here](http://www.zheng-hang.com/zb_users/upload/2015/04/201504121428777915191225.jpg)
+使用第一种方法：
+$ A_0:(x_0 + a(x_1 - x_0), y_0 + b(y_1 - y_0)) $
+$ B_{n-1}:(x_n - a(x_n - x_{n-1}), y_n - b(y_n - y_{n-1})$
+其中a，b为任意正整数
+
+```
+实现像素绘制函数：
+void lerp(Geometry_Point &dest, Geometry_Point a, Geometry_Point b, double t) {
+    dest.x = a.x + (b.x - a.x) * t;
+    dest.y = a.y + (b.y - a.y) * t;
+}
+
+void bezier(Geometry_Point &dest, Geometry_Point a, Geometry_Point b,
+            Geometry_Point c, Geometry_Point d,  double t) {
+    Geometry_Point ab, bc, cd, abbc, bccd;
+    lerp(ab, a, b, t); //point between a and b
+    lerp(bc, b, c, t);
+    lerp(cd, c, d, t);
+    lerp(abbc, ab, bc, t);
+    lerp(bccd, bc, cd, t);
+    lerp(dest, abbc, bccd, t); //point on bezier-curve
+}
+```
+Thanks for Watching.
