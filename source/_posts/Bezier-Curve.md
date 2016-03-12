@@ -33,13 +33,18 @@ $ A_0:(x_0 + a(x_1 - x_0), y_0 + b(y_1 - y_0)) $
 $ B_{n-1}:(x_n - a(x_n - x_{n-1}), y_n - b(y_n - y_{n-1})$
 其中a，b为任意正整数
 
+
+## 绘制曲线：
 ```
-实现像素绘制函数：
+typedef struct point{
+    double x, y;
+} Geometry_Point;
+//插值
 void lerp(Geometry_Point &dest, Geometry_Point a, Geometry_Point b, double t) {
     dest.x = a.x + (b.x - a.x) * t;
     dest.y = a.y + (b.y - a.y) * t;
 }
-
+//根据t得出像素坐标dest,t范围为[0,1]
 void bezier(Geometry_Point &dest, Geometry_Point a, Geometry_Point b,
             Geometry_Point c, Geometry_Point d,  double t) {
     Geometry_Point ab, bc, cd, abbc, bccd;
@@ -52,5 +57,5 @@ void bezier(Geometry_Point &dest, Geometry_Point a, Geometry_Point b,
 }
 ```
 <br>
-感谢阅读这份文档。
+感谢阅读这份文档, Thanks。
 这是一个贝塞尔绘制示例脚本。请点击 [曲线绘制](http://myst729.github.io/bezier-curve/ ) 

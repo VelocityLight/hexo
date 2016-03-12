@@ -1,12 +1,13 @@
 ---
 title: Hello World
+date: 2016-03-09 10:46:43
 tags:
 - Hexo
 - Github
 categories:
 - 读书杂记
 ---
-欢迎来到鋆郴的Github博客：Welcome to Jcs Github blog, reading world is coming.<!--more-->
+欢迎来到鋆郴的Github博客：Welcome to Jc's Github blog, reading world is coming.<!--more-->
 
 ## Quick Start
 
