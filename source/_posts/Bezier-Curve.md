@@ -7,17 +7,14 @@ categories:
 - IT
 ---
 Bezier Curve Problem.<!--more-->
-Bezier Curve
-===================
+# Bezier Curve
 [TOC]
 
-Question
--------------
+## Question
 > - 折线平滑为贝塞尔曲线
 > - 曲率连续
 
-Before
--------------
+## Before
 平面上已知n+1个数据点Pi(xi, yi), i = 0, 1, 2, ... , n 。在相邻两点Pi和Pi+1之间使用三次Bezier曲线连接。
 
 > **解析:**
@@ -25,8 +22,7 @@ Before
 > - 第一条和最后一条线段的贝塞尔曲线
 > - 使曲率连续
 
-Solve
--------------
+## Solve
 曲率连续及控制点求解：
 ![\[参考文献\]](http://www.zheng-hang.com/zb_users/upload/2015/04/201504121428776867406226.png)
 <br>
@@ -55,4 +51,6 @@ void bezier(Geometry_Point &dest, Geometry_Point a, Geometry_Point b,
     lerp(dest, abbc, bccd, t); //point on bezier-curve
 }
 ```
-Thanks for Watching.
+<br>
+感谢阅读这份文档。
+这是一个贝塞尔绘制示例脚本。请点击 [曲线绘制](http://myst729.github.io/bezier-curve/ ) 
