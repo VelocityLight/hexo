@@ -56,6 +56,13 @@ void bezier(Geometry_Point &dest, Geometry_Point a, Geometry_Point b,
     lerp(dest, abbc, bccd, t); //point on bezier-curve
 }
 ```
+##关于曲率连续：
+上述的方法使得曲线的切线斜率连续。在多数的情况下，我们常常需使得曲率也连续，即二阶导相等。
+此时不仅要求$B_{i-1}$和$A_i$都在$P_i$所做的切线上，还需满足如下等式：
+$$ (\frac{\overline{B_{i-1}P_i}}{\overline{P_iA_i}})^2 = \frac{\overline{A_{i-1}B_{i-1}}*\sin\angle{A_{i-1}B_{i-1}P_i}}{\overline{A_iB_i} * \sin\angle{P_iA_iB_i}} , i=1, 2, 3, ..., n-1$$
+此时需要使用迭代的方法，反复迭代最终达到收敛，从而得到控制点。
+
 <br>
 感谢阅读这份文档, Thanks。
 这是一个贝塞尔绘制示例脚本。请点击 [曲线绘制](http://myst729.github.io/bezier-curve/ ) 
+<br>
