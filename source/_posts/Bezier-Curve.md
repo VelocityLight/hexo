@@ -56,7 +56,7 @@ void bezier(Geometry_Point &dest, Geometry_Point a, Geometry_Point b,
     lerp(dest, abbc, bccd, t); //point on bezier-curve
 }
 ```
-##关于曲率连续：
+## 关于曲率连续：
 上述的方法使得曲线的切线斜率连续。在多数的情况下，我们常常需使得曲率也连续，即二阶导相等。
 此时不仅要求$B_{i-1}$和$A_i$都在$P_i$所做的切线上，还需满足如下等式：
 $$ (\frac{\overline{B_{i-1}P_i}}{\overline{P_iA_i}})^2 = \frac{\overline{A_{i-1}B_{i-1}}*\sin\angle{A_{i-1}B_{i-1}P_i}}{\overline{A_iB_i} * \sin\angle{P_iA_iB_i}} , i=1, 2, 3, ..., n-1$$
