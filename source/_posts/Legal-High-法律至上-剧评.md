@@ -49,7 +49,7 @@ categories:
 **SP特典：医疗事件**
 
 ## 推荐理由&剧集分析
-   (该部分有部分内容参考或转载于[知乎](https://www.zhihu.com/question/20995916)/[豆瓣](https://movie.douban.com/review/5398293/)，详细内容可点击链接其地址)
+   (该部分有部分内容参考或转载于[知乎](https://www.zhihu.com/question/20995916)/[豆瓣](https://movie.douban.com/review/5398293/)，详细内容可点击进入链接)
    该剧看了不下两遍，每一集都可以引发很深的思维碰撞。接下来对每一集的潜在意义做一些比较简要的说明。有许多感觉没有办法写出来，也许只有自己去看才能明白。
 
 ### 第一季
@@ -187,3 +187,8 @@ SP2讲述的是医疗纠纷，其本质是科学前进道路上的牺牲者以�
  要怪就怪科学去！
 ```
 
+## 音乐
+[《女神のKISS》](http://music.163.com/#/song?id=495789)
+
+## 图片
+![legal high](http://photo2.bababian.com/upload7/20160423/8F0AEB61DBADD18113C870F20F30B78A_500.jpg)
