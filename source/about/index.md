@@ -13,6 +13,9 @@ comments: false
  > 2016.4.24 -- 添加标签云  
  > - 参考:[建设球形状标签云](http://magicwangs.github.io/post/Hexo-Yilia-%E4%B8%BB%E9%A2%98%E4%BC%98%E5%8C%96%E6%80%BB%E7%BB%93/)
  
+<br>
+> 修改favicon. 参考:[icon制作网址](http://www.easyicon.net/language.en/iconsearch/github/&min=10&max=48)
+
  <br>
  > 添加source/about, source/tags方法
  ```
