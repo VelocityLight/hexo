@@ -191,4 +191,4 @@ SP2讲述的是医疗纠纷，其本质是科学前进道路上的牺牲者以�
 [《女神のKISS》](http://music.163.com/#/song?id=495789)
 
 ## 图片
-![legal high](http://photo2.bababian.com/upload7/20160423/8F0AEB61DBADD18113C870F20F30B78A_500.jpg)
+<img src="../../blog-img/legal high.jpg" alt="Legal High"/>
