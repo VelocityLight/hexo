@@ -2,9 +2,10 @@
 menu:
   主页: /
   所有文章: /archives
-  IT: /categories/IT/
-  读书杂记: /categories/读书杂记/
+  #IT: /categories/IT/
+  #读书杂记: /categories/读书杂记/
   标签云: /tags
+  关于: /about
   # 随笔: /tags/随笔
 
 # SubNav
