@@ -42,3 +42,14 @@ comments: false
  ```
 
 <br>
+
+> 书写文章Markdown语法
+> 参考:[Github+Markdown](https://guides.github.com/features/mastering-markdown/#syntax)
+> [Github&Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+
+<br>
+
+> Markdown Latex语法:数学公式
+> 参考:[Markdown Latex](https://github.com/cben/mathdown/wiki/math-in-markdown)
+
+<br>
