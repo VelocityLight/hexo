@@ -53,3 +53,7 @@ comments: false
 > 参考:[Markdown Latex](https://github.com/cben/mathdown/wiki/math-in-markdown)
 
 <br>
+
+> 迁移至Mac及配置 -- 2016.8.15
+
+<br>
