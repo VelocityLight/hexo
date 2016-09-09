@@ -5,7 +5,7 @@ tags:
 - Hexo
 - Github
 categories:
-- 读书杂记
+- IT
 ---
 关于Mac上工程迁移.<!--more-->
 ### 安装node.js
