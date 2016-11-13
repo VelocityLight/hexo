@@ -72,7 +72,9 @@ stylus:
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
+ #type: git
+ #repository: https://github.com/VelocityLight/VelocityLight.github.io.git
+ # branch: master
   type: git
-  repository: https://github.com/VelocityLight/VelocityLight.github.io.git
-  branch: master
+  repository: git@git.coding.net:VelocityLight/VelocityLight.git,coding-pages
   message: '站点更新: {{ now("YYYY-MM-DD  HH:mm:ss") }}'
