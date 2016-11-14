@@ -76,5 +76,6 @@ deploy:
  #repository: https://github.com/VelocityLight/VelocityLight.github.io.git
  # branch: master
   type: git
-  repository: git@git.coding.net:VelocityLight/VelocityLight.git,coding-pages
+  repository: 
+    coding: git@git.coding.net:VelocityLight/VelocityLight.git,coding-pages
   message: '站点更新: {{ now("YYYY-MM-DD  HH:mm:ss") }}'
